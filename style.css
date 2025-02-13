@@ -7,7 +7,7 @@ body{
 p{
     margin: 0;
 }
-#hedar-style{
+.hedar-style{
     background-color: black;
     width: 100%;
     height: 100px;
@@ -65,31 +65,228 @@ margin-left: 60px;
     
 }
 .buttonns{
- position: absolute;;
-align-items: center;
-margin-left: 750px;
-
-
+  
+  justify-content: center;
+  display: flex;
+  margin-left: 1500px;
+  height: 50px;
 }
+.buttonns .button-1{
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    width: 200px;
+    justify-content: center;
+  display: flex;
+  padding-top: 15px;
+
+    
+}
+.buttonns .button-2{
+    padding-top: 15px;
+    width: 150px;
+    margin-left:10px ;
+    background-color: #4C5FD5;
+    color: white;
+    border-radius: 9px;
+    border-color: black;
+    justify-content: center;
+  display: flex;
+    
+}
+
 .secand-part{
+    display: flex;
+    justify-content: center;
     position: relative;
     background-color:  #dadbf1;
     width: 100%;
     height: 400px;
 }
 .secand-part input[type=text]{
+    display: flex;
     padding-left:10px ;
     position: absolute;
-    margin-left: 300px;
-    margin-top: 150px;
+   margin-top: 150px;
     width: 500px;
     height: 50px;
     align-items: center;
 }
 .secand-part p{
+    margin-top: 70px;
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    margin-left: 350px;
-    margin-top: 50px;
+   
+}
+.theard-part{
+background-color: rgb(255, 255, 255);
+height: 950px;
+width: 100%;
+display: flex;
+ 
+}
+.culom-1{
+position:absolute;
+background-color: rgb(255, 255, 255);
+height: 950px;
+width: 700px;
+margin-left: 200px;
+display: flex;
+
+
+
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.div-1{
+    position: absolute;
+    margin-top: 150px;
+    float: inline-start;
+    background-color: rgb(255, 255, 255);
+}
+.text-div1{
+    display: inline-block;
+    position: relative;
+}
+.text-div1 p{
+font-size: 25px;
+padding-left :40px; 
+}
+.text-div1 h1{
+    padding-left: 30px;
+}
+.text-div1 a{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.div-2{
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+margin-top: 385px;
+width: 100%;
+height: 285px;
+}
+.div-2 img{
+    padding-top: 80px;
+}
+.text-div2{
+    display: inline-block;
+    position: absolute;
+}
+.text-div2 p{
+font-size: 20px;
+padding-left :40px; 
+}
+.text-div2 h1{
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.text-div2 a{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.div-3{
+    background-color: rgb(255, 255, 255);
+    margin-top: 665px;
+    height: 285px;
+    width: 100%;
+}
+.div-3 img{
+    padding-top: 100px;
+}.text-div3{
+    display: inline-block;
+    position: absolute;
+}
+.text-div3 p{
+font-size: 30px;
+padding-left :40px; 
+}
+.text-div3 h1{
+    margin-top: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.text-div3 a{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.culom-2{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 950px;
+    width: 700px;
+    position: absolute;
+    display: block;
+    margin-left: 990px ;
+}
+
+
+.div-4{
+    margin-top: 65px;
+    height: 285px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.div-4 img{
+    padding-top: 100px;
+    padding-right: 20px;
+    float: left;
+    display: flex;
+}
+.text-div4 h1{
+padding-top: 60px;
+padding-left: 20px;
+}
+.text-div4 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-div4 a{
+    padding-top: 20px;
+}
+.div-5{background-color: rgb(255, 255, 255);
+    
+    height: 285px;
+    width: 100%;
+   }
+.div-6{background-color: rgb(255, 255, 255);
+    height: 285px;
+    width: 100%;}
+
+    .imag-5{
+margin-top: 100px; 
+float: left;  
+padding-right: 40px;
+ }
+ .text-div5{
+    padding-top: 100px
+ }
+ .text-div5 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.div-6 img{
+    padding-right: 40px;
+    padding-top: 100px;
+    float: left;
+}
+.text-div6{
+    padding-top: 100px;
+}
+.text-div6 h1{
+margin-left: 20px;}
+.text-div6 p{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px; ;
 }
