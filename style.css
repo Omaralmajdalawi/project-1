@@ -138,9 +138,6 @@ display: flex;
 
 
 }
-<<<<<<< HEAD
-
-=======
 .footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -148,7 +145,6 @@ display: flex;
     display: flex;
     color: white; 
 }
->>>>>>> 6455e9cbe6a8433696967ac05870892832c86b5d
 .div-1{
     position: absolute;
     margin-top: 150px;
