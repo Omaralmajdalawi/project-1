@@ -2,6 +2,15 @@ h1{
     margin: 0px;
 }
 body{
+
+  background-color: lightblue;
+
+
+/* عندما يكون عرض الشاشة 600 بكسل أو أقل */
+@media (max-width: 600px) 
+
+    background-color: lightgreen;
+ 
     margin: 0px;
 }
 p{
